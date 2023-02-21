@@ -33,4 +33,8 @@ for sentence in sentences:
 # My example
 my_word1 = nlp("tiger")
 my_word2 = nlp("lion")
+my_word3 = nlp("jaguar")
+
 print(my_word1.similarity(my_word2))
+print(my_word1.similarity(my_word3))
+print(my_word3.similarity(my_word2))
